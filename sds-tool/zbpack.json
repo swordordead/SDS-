@@ -1,5 +1,5 @@
 {
   "startCommand": "node server/app.js",
-  "buildCommand": "cd client && npm install && vite build",
-  "outputDirectory": "server/public"
+  "buildCommand": "cd client && npm install --legacy-peer-deps && npx vite build",
+  "outputDir": "server/public"
 }

@@ -5,7 +5,7 @@
   "scripts": {
     "dev:client": "cd client && vite",
     "dev:server": "node server/app.js",
-    "build:frontend": "cd client && vite build",
+    "build:frontend": "cd client && npm install --legacy-peer-deps && npx vite build",
     "start": "node server/app.js"
   },
   "dependencies": {
