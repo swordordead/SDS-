@@ -1,0 +1,9 @@
+node_modules/
+dist/
+sds-tool/server/public/
+.env
+.env.local
+*.log
+.playwright-mcp/
+test_products.xlsx
+*.docx

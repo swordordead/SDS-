@@ -1,0 +1,22 @@
+{
+  "name": "sds-tool",
+  "version": "0.1.0",
+  "description": "SDS 自动生成工具 — Excel 产品数据转换为 US SDS 标准 PDF 报告",
+  "scripts": {
+    "dev:client": "cd client && vite",
+    "dev:server": "node server/app.js",
+    "build:frontend": "cd client && vite build",
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "docx": "^9.6.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.11.0",
+    "xlsx": "^0.18.5"
+  }
+}
